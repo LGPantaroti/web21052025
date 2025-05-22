@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Altura total da tela */
+  margin: 0; /* Remove margens padrão */
+  font-style: italic;
+  background-color: #f0f0f0; /* Cor de fundo opcional */
+  flex-direction: column; /* Coloca os elementos em coluna */
+}
+
+h1 {
+  font-size: 100px;
+}
+
+#relogio,
+#cronometro {
+  width: 20%;
+  padding: 2rem;
+  margin: 1rem; /* Espaçamento entre os elementos */
+  text-align: center;
+  background-color: rgb(243, 20, 20);
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white; /* Para melhorar a visibilidade do texto */
+}
